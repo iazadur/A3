@@ -33,3 +33,20 @@
 .text-light-50{
    color:#E0E0E0;
 }
+.text-orange{
+    color: #E76F51;
+}
+.bg-orange{
+   color: #E77C40;
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+.feature-bike{
+    width: 288px;
+    height: 243px;
+}
+.user-img{
+    width: 149px;
+    height: 149px;
+}
