@@ -27,6 +27,9 @@
 .ff-poppins{
     font-family: var(--Poppins);
 }
+.ls-1{
+    letter-spacing: 0.2px;
+}
 .lh-xl{
     line-height: 72px;
 }
@@ -35,6 +38,12 @@
 }
 .text-orange{
     color: #E76F51;
+}
+.text-gray-100{
+    color: #6C6C6C;
+}
+.text-blue-100{
+    color: #23A6F0;
 }
 .bg-orange{
    color: #E77C40;
