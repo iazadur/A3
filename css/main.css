@@ -1,0 +1,19 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+ 
+/* Variable style  */
+:root{
+    --Poppins:'Poppins', sans-serif;
+}
+
+
+.button{
+    background: #E76F51;
+    border-radius: 5px;
+    font-family: var(--Poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
