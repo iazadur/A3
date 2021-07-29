@@ -50,3 +50,6 @@
     width: 149px;
     height: 149px;
 }
+.image-rounded{
+    border-radius: 50%;
+}
