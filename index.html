@@ -22,23 +22,82 @@
         <section class="container">
             <div class="row d-flex justify-content-around align-items-center">
                 <div class="col-lg-6">
-                    <p class="fs-7 mb-0 fw-light text-light-50 ff-poppins">Computer-controlled digital transistorized with electronic advance</p>
+                    <p class="fs-7 mb-0 fw-light text-light-50 ff-poppins">Computer-controlled digital transistorized
+                        with electronic advance</p>
                     <h1 class="fw-bold text-white fs-0 lh-xl">Honda CBR 300R</h1>
-                    <p class="fs-6 fw-light lh-base text-light-50 ff-poppins">Amet minim mollit non deserunt ullamco est sit aliqua
+                    <p class="fs-6 fw-light lh-base text-light-50 ff-poppins">Amet minim mollit non deserunt ullamco est
+                        sit aliqua
                         dolor do amet sint. Velit officia consequat duis enim velit
                         mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn button px-5 py-2">Purchase</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn button px-5 py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You have added <a class="text-decoration-none" href="http://" target="_blank" rel="noopener noreferrer">Honda CBR 300R</a> to your shopping cart!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Cart Quantity</th>
+                                <th scope="col">Cart Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row" >1*1</td>
+                                <td>240000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">View Cart</button>
+                    <button type="button" class="btn btn-primary">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </header>
 
 
 
+    <main>
+        <!-- Fetured Bikes Section  -->
+        <section>
+            <div>
+                <h2>Fetured Bikes 2021</h2>
+                <p>Best bike collection</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="images/bike-1.png" class="card-img-top" alt="...">
+                    
+                  </div>
+                </div>
+              
+                
+              </div>
+        </section>
+    </main>
 
+    
 
 
 
