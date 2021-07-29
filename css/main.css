@@ -17,3 +17,19 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+.fs-0{
+    font-size: 48px;
+}
+.fs-7{
+    font-size: 14px;
+    line-height: 22px;
+}
+.ff-poppins{
+    font-family: var(--Poppins);
+}
+.lh-xl{
+    line-height: 72px;
+}
+.text-light-50{
+   color:#E0E0E0;
+}
